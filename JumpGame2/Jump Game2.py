@@ -3,7 +3,7 @@ class Solution:
         farthest_jump = 0
         min_jump_count = 0                # Minimum number of jumps to reach nums[n - 1]
         end_of_jump = 0                   # If (i + nums[i]) == 2, end_of_jump = index 2 (farthest_jump)
-        for i in range(len(nums)):
+        for i in range(len(nums)-1):
             farthest_jump = max(farthest_jump, i + nums[i])
 
             if farthest_jump >= len(nums) - 1:
