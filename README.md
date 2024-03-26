@@ -1,1 +1,1 @@
-_This repository conatains different types of DSA questions._
+_This repository contains different types of DSA questions._
